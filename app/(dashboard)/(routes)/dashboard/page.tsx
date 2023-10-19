@@ -1,7 +1,9 @@
+import { UserButton } from "@clerk/nextjs";
+
 export default function DashboardPage() {
   return (
-    <section className="container">
-      <div className="py-6">Dashboard Page (Protected) </div>
-    </section>
+    <div className="p-4">
+      <p>Dashboard Page (Protected)</p>
+    </div>
   );
 }
