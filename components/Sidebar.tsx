@@ -28,6 +28,12 @@ const routes = [
     color: "text-violet-500",
   },
   {
+    label: "Music Generation",
+    icon: Music,
+    href: "/music",
+    color: "text-emerald-500",
+  },
+  {
     label: "Image Generation",
     icon: ImageIcon,
     href: "/image",
@@ -38,12 +44,6 @@ const routes = [
     icon: VideoIcon,
     href: "/video",
     color: "text-orange-700",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-emerald-500",
   },
   {
     label: "Code Generation",
